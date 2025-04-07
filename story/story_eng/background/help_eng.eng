@@ -1,0 +1,227 @@
+INTRODUCTION TO THE KATANA GAMEBOOK
+
+By Rodrigo Martins – Federal Rural University of Rio de Janeiro (UFRRJ),
+Computer Science course
+
+
++---About the Project---+
+
+
+Katana is a digital gamebook developed as part of a university project
+aimed at exploring and applying concepts of programming logic, data structures,
+and flow control using the C programming language.
+
+In addition, the project seeks to provide a hands-on introduction to the development
+of text-based games and systems based on interactive numeric menus, simulating
+an immersive and narrative experience in a terminal environment.
+
+
++---How to Play---+
+
+
+The game is controlled exclusively by numbers typed on the keyboard. Whenever a
+question appears on the screen, a set of numbered options will be listed.
+Just type the number corresponding to your choice and press ENTER.
+
+Example:
+
+1 - Attack
+2 - Defend
+3 - Rest
+4 - Use Elixir
+
+
+GENERAL GAME STRUCTURE
+
+
++---Main Menu---+
+
+
+When starting the game, you will see the main menu, where you can:
+
+- Start a new game
+
+- Load a saved game
+
+- Enter training mode
+
+- Adjust settings (language and text speed)
+
+- View game credits
+
+- Exit the game
+
+
++---Settings---+
+
+
+You can choose between Portuguese (PT-BR) or English (EN), as well as
+set the text speed (display speed for dialogue and menus). These settings
+are saved for future playthroughs.
+
+
+COMBAT SYSTEM
+
+
++---Turns---+
+
+
+Each battle takes place in turns alternating between the player and the enemy.
+During your turn, you can:
+
+- Attack – Deals damage based on attack power, bonuses, and critical hit chance.
+
+- Defend – Reduces damage taken on the next turn and grants a defense bonus.
+
+- Rest – Recovers your stamina, which is essential for attacking or defending.
+
+- Use Items – Ginseng, Elixirs, and others.
+
+Stamina is consumed with each action and must be managed wisely,
+as running out of it leaves you vulnerable.
+
+
++---Combat Elements---+
+
+
+- HP: when it reaches zero, the character loses the battle.
+
+- Stamina: energy used to perform actions.
+
+- Critical: random chance to deal extra damage, increased proportionally
+to the attack attribute.
+
+- Dodge: some enemies can avoid attacks based on their stats.
+
+
+SHOP SYSTEM
+
+
+When visiting the town shop, you can spend your Ryōs (in-game currency) to purchase:
+
+
++---Consumables---+
+
+
+- Ginseng: restores stamina.
+
+- Elixir: heals HP.
+
+- Sake: increases attack power for a limited time.
+
+
++---Equipment---+
+
+
+- Armor: affects attributes such as HP, attack, and defense.
+
+You can change armor through the inventory menu or by visiting the
+shop. Each armor has unique characteristics that can enhance your
+performance in battle.
+
+
+INVENTORY SYSTEM
+
+
+You can access your inventory via the player menu, where you can:
+
+- View available items.
+
+- Use items outside of battle (in some cases).
+
+- Equip or swap armors.
+
+
+PROGRESSION AND REWARDS
+
+
+After a battle, you gain:
+
+- Experience (XP): required to level up.
+
+- Ryōs: used to buy items and equipment.
+
+
++---Leveling Up---+
+
+
+When you accumulate enough XP, you level up and receive attribute points
+to distribute among:
+
+- HP – Maximum health.
+
+- Attack – Damage dealt.
+
+- Defense – Damage reduction.
+
+- Stamina – Maximum stamina.
+
+Distribute your points according to your combat style.
+
+
+TOWN MENU
+
+
+As you progress through the game, you'll reach the town, which serves as a central hub to:
+
+- Continue the main story
+
+- Buy items
+
+- Access your inventory
+
+- Perform training
+
+- Allocate attributes
+
+
+TRAINING MODE
+
+
+Here you can:
+
+- Fight against AI
+
+- Play local PvP (2 players on the same PC)
+
+- Watch automatic battles (AI vs AI)
+
+It’s a great way to train without consequences for the story.
+
+
+STORY
+
+
+The game’s story is divided into chapters, which are unlocked as
+the player progresses. The decisions made slightly affect the
+difficulty of upcoming battles, offering an interactive and evolving
+RPG experience.
+
+
+TIPS FOR BEGINNERS
+
+
+- Read each choice carefully before responding.
+
+- Manage your stamina to avoid being left defenseless.
+
+- Always keep healing items in your inventory.
+
+- Use training mode to familiarize yourself with the controls.
+
+- Distribute attributes in a balanced way, prioritizing attack or
+defense based on your armor.
+
+- Take breaks! The game automatically saves your progress with each
+chapter.
+
+
+FINAL CONSIDERATIONS
+
+
+This project was designed for educational and learning purposes,
+both for the player and the developer. The entire game code
+was developed in C, with a focus on structure, organization,
+and programming logic.
+
+Good luck, warrior. May your blade be just and your mind sharp.

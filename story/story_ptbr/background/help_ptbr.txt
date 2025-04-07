@@ -1,0 +1,229 @@
+INTRODUÇÃO AO JOGO-LIVRO KATANA
+
+Por Rodrigo Martins – Universidade Federal Rural do Rio de Janeiro (UFRRJ),
+curso de Ciência da Computação
+
+
++---Sobre o Projeto---+
+
+
+Katana é um jogo-livro digital desenvolvido como parte de um trabalho universitário
+com o objetivo de explorar e aplicar conceitos de lógica de programação, estruturas
+de dados e controle de fluxo na linguagem C.
+
+Além disso, o projeto visa proporcionar uma introdução prática ao desenvolvimento
+de jogos textuais e sistemas baseados em menus numéricos interativos, simulando uma
+experiência imersiva e narrativa em um ambiente de terminal.
+
+
++---Como Jogar---+
+
+
+O jogo é controlado exclusivamente por números digitados no teclado. Sempre que uma
+pergunta for apresentada na tela, será listado um conjunto de opções com números.
+Basta digitar o número correspondente à sua escolha e pressionar ENTER.
+
+Exemplo:
+
+1 - Atacar
+2 - Defender
+3 - Descansar
+4 - Usar Elixir
+
+
+ESTRUTURA GERAL DO JOGO
+
+
++---Menu Principal---+
+
+
+Ao iniciar o jogo, você verá o menu principal, onde poderá:
+
+- Iniciar um novo jogo
+
+- Carregar um jogo salvo
+
+- Entrar no modo de treinamento
+
+- Ajustar configurações (idioma e velocidade de texto)
+
+- Ver os créditos do jogo
+
+- Sair do jogo
+
+
++---Configurações---+
+
+
+Você pode escolher entre os idiomas Português (PT-BR) ou Inglês (EN), além de
+definir a velocidade do texto (exibição de falas e menus). Essas configurações
+são salvas para futuras jogadas.
+
+
+SISTEMA DE COMBATE
+
+
++---Turnos---+
+
+
+Cada combate é realizado em turnos alternados entre o jogador e o inimigo.
+Durante o seu turno, você poderá:
+
+- Atacar – Causa dano baseado em ataque, bônus e chance de crítico.
+
+- Defender – Reduz o dano recebido no próximo turno e concede bônus de defesa.
+
+- Descansar – Recupera sua resistência (stamina), essencial para atacar ou se
+defender.
+
+- Usar Itens – Ginseng, Elixires, entre outros.
+
+A resistência é consumida a cada ação e precisa ser gerenciada com sabedoria,
+pois ficar sem ela o deixa vulnerável.
+
+
++---Elementos do Combate---+
+
+
+- Vida: quando chega a zero, o personagem perde a batalha.
+
+- Resistência: energia usada para realizar ações.
+
+- Crítico: chance aleatória de causar dano extra, aumentada proporcionalmente
+ao atributo de ataque.
+
+- Esquiva: alguns inimigos podem evitar ataques com base em atributos.
+
+
+SISTEMA DE COMPRAS
+
+
+Ao visitar a loja na cidade, você pode gastar seus Ryōs (moeda do jogo) para
+adquirir:
+
+
++---Consumíveis---+
+
+
+- Ginseng: recupera resistência.
+
+- Elixir: cura HP.
+
+- Saquê: aumenta ataque por tempo limitado.
+
+
++---Equipamentos---+
+
+
+- Armaduras: afetam atributos como HP, ataque e defesa.
+
+Você pode trocar de armadura acessando o menu de inventário ou visitando a
+loja. Cada armadura tem características únicas que podem melhorar seu
+desempenho em batalha.
+
+
+SISTEMA DE INVENTÁRIO
+
+
+Você tem acesso ao seu inventário através do menu do jogador, onde poderá:
+
+- Visualizar itens disponíveis.
+
+- Usar itens fora de batalha (em alguns casos).
+
+- Equipar ou trocar armaduras.
+
+
+PROGRESSÃO E RECOMPENSAS
+
+
+Após uma batalha, você ganha:
+
+- Experiência (XP): necessária para subir de nível.
+
+- Ryōs: usados para comprar itens e equipamentos.
+
+
++---Subindo de Nível---+
+
+
+Ao acumular XP suficiente, você sobe de nível e recebe pontos de atributos
+para distribuir entre:
+
+- Vida – Vida máxima.
+
+- Ataque – Dano causado.
+
+- Defesa – Redução de dano.
+
+- Resistência – Resistência máxima.
+
+Distribua seus pontos conforme seu estilo de combate.
+
+
+MENU DA CIDADE
+
+
+Após progredir no jogo, você acessará a cidade, que funciona como hub
+central para:
+
+- Continuar a história principal
+
+- Comprar itens
+
+- Acessar o inventário
+
+- Realizar treinamentos
+
+- Distribuir atributos
+
+
+MODO DE TREINAMENTO
+
+
+Aqui você pode:
+
+- Lutar contra a inteligência artificial
+
+- Jogar PvP local (2 jogadores no mesmo PC)
+
+- Assistir batalhas automáticas (IA vs IA)
+
+É uma ótima maneira de treinar sem consequências para a história.
+
+
+HISTÓRIA
+
+
+A história do jogo é dividida em capítulos, acessados conforme o 
+progresso do jogador. As decisões tomadas influenciam levemente a
+dificuldade dos combates seguintes, oferecendo uma experiência de
+RPG interativa e evolutiva.
+
+
+DICAS PARA JOGADORES INICIANTES
+
+
+- Leia atentamente cada escolha antes de responder.
+
+- Gerencie sua resistência para não ficar indefeso.
+
+- Sempre mantenha itens de cura no inventário.
+
+- Use o modo de treinamento para se familiarizar com os controles.
+
+- Distribua atributos de forma equilibrada, priorizando ataque ou
+defesa conforme sua armadura.
+
+- Faça pausas! O jogo salva seu progresso automaticamente.
+
+
+CONSIDERAÇÕES FINAIS
+
+
+Este projeto foi idealizado com fins educacionais e de aprendizado,
+tanto para o jogador quanto para o desenvolvedor. O código do jogo
+foi totalmente desenvolvido em C, com foco em estrutura, organização
+e lógica de programação.
+
+Boa sorte, guerreiro(a). Que sua lâmina seja justa e sua mente, afiada.
